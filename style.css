@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    height: 750px;
+    background-color: #163A24;
+}
+
+@media (min-width:762px) {
+    .logo{
+        align-items: center;
+    }
+}
+
+.wrapper {
+    margin: 0 auto;
+
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+}
+
+.nav {
+    
+    float: right;
+   
+}
+
+a:hover {
+    background-color: #15762e !important;
+}
+
+
+ .nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'inter';
+    font-size: 15pt;
+    background-color: #198C36;
+}
+#start {
+    background-color: #198C36;
+}
+
+.flex img {
+    flex: 2;
+    width: 600px;
+    height: 600px;
+}
+
+h1 {
+    color: white;
+    flex: 1;
+    font-family: 'Domine', sans-serif;
+
+}
+
+.logo {
+    float: left;
+    margin-left: 50px;
+}
+
+.flex p {
+    color: white;
+}
+p {
+    color: black;
+    font-family: 'inter';
+}
+
+.images img{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.images
+{
+    float: left;
+}
+footer {
+    background-color: #163A24 ;
+width: 1200px;
+height: 100px;
+}
